@@ -2,7 +2,7 @@ class Tile
 
   attr_accessor :showing, :value, :flagged
 
-  def initialize(value="-")
+  def initialize(value=".")
     @showing = false
     @flagged = false
     @value = value
@@ -19,5 +19,4 @@ class Tile
   def unflag
     @flagged = false
   end
-
 end
